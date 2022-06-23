@@ -1,0 +1,63 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(80deg, #C7C5F4, #776BCC);
+    margin: 15px;
+}
+
+#mySelect {
+    float: left;
+    height: 29px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#ListProduct {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#ListProduct th {
+    background-color: #5D54A4;
+    height: 35px;
+    color: #fff;
+}
+
+#ListProduct td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#ListProduct tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#ListProduct tr:hover {
+    background-color: #ddd;
+}
+
+
+#ListProduct > th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: white;
+}
+
+tbody > tr > td > button {
+    background: #e74e4e;
+    color: #fff;
+    line-height: 176%;
+    min-width: 70px;
+    font-weight: bold;
+}
+
+
+
+
